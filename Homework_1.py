@@ -8,10 +8,24 @@
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
 
 def fahrenheit2celsius(fahrenheit): 
-   ...
+   return (5/9) * (fahrenheit - 32)
 
 def what_to_wear(celsius):
-   ...
+    if celsius < - 10:
+        print("wear PuffyJacket!!")
+    elif -10 < celsius < 0:
+        print("wear Scarf!!")
+    elif 0 < celsius < 10:
+        print("wear Sweater!!")
+    elif 10 < celsius < 20:
+        print("wear LightJacket!!")
+    elif 20 < celsius:
+        print("wear T-shirt!!")
+    else:
+        print("I'm in a dilemma between two options!!")
+
+#It is a void function
+#values of -10, 0, 10, 20 intentionally left for else, since it is not specified in assignment
 
 # ---------------------------- Exercise II --------------------------------------
 # ----------------- Area and perimeter of a triangle  ---------------------------
