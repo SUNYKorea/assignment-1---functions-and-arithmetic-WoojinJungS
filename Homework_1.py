@@ -1,5 +1,5 @@
-# Name:
-# SBUID: 
+# Name: Woojin Jung
+# SBUID:  115964091
 
 # Remove the ellipses (...) when writing your solutions.
 
@@ -33,28 +33,30 @@ def what_to_wear(celsius):
 # compute_triangle_perimeter from scratch  
 
 def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
-    ...
+    return abs(((x1 + x2 + x3) - (y1 + y2 + y3))/2)
 
 def euclidean_distance(x1, y1, x2, y2):
-    ...
+    return ((x1 - x2)**2 + (y1 + y2)**2) ** 0.5
 
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
-    ...
+    return sum((euclidean_distance(x1, y1, x2, y2), euclidean_distance(x1, y1, x3, y3), euclidean_distance(x2, y2, x3, y3)))
+
 
 
 # ---------------------------- Exercise III -------------------------------------
 # ----------------- Compute the area of a regular polygon -----------------------
 # TODO: Fill the functions deg2rad, apothem  and polygon_area 
 
+import math
 
 def deg2rad(deg):
-    ...
+    return math.radians(deg)
 
 def apothem(number_sides, length_side):
-   ...
+    return length_side / (2 * math.tan(180 / deg2rad(number_sides)))
 
 def polygon_area(number_sides, length_side):
-   ...
+    return number_sides * length_side * apothem(number_sides, length_side) / 2 
 
 
 # ---------------------------- Test -------------------------------------
