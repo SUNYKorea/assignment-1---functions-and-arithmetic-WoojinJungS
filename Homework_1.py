@@ -1,8 +1,14 @@
 # Name: Woojin Jung
 # SBUID:  115964091
-
+##################### SCORE ######################
+####### Score:  2/10
+#################################################
 # Remove the ellipses (...) when writing your solutions.
-
+# your output:
+# (base) D:\CSE 101 Ass1\Assignment 1 - Functions and Arithmetic-04-05-2023-05-19-27>D:/anaconda/python.exe "d:/CSE 101 Ass1/Assignment 1 - Functions and Arithmetic-04-05-2023-05-19-27/WoojinJungS/Homework_1.py"
+# wear Sweater!! --> correct
+# The area of the triangle is : 2.0 , its perimeter is : 19.559919750220082 -> wrong
+# The area of the polygon is : -3.8979678309048262-> wrong
 # ---------------------------- Exercise I ---------------------------------------
 # ----------------- Convert Fahrenheit to Celsius -------------------------------
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
