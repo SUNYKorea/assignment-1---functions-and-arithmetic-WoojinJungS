@@ -1,7 +1,7 @@
 # Name: Woojin Jung
 # SBUID:  115964091
 ##################### SCORE ######################
-####### Score:  2/10
+####### Score:  7/10
 #################################################
 # Remove the ellipses (...) when writing your solutions.
 # your output:
